@@ -1,0 +1,16 @@
+name: ServerTimer
+version: '1.0.1-SNAPSHOT'
+main: xyz.prosurestring.prosurestring.ServerTimer
+api-version: '1.21'
+authors: [ProSureString]
+description: Server startup timer with world border control and PvP grace period
+commands:
+  startserver:
+    description: Start the server with a countdown timer
+    usage: /startserver <BorderSize> <StartDuration> <GraceDuration>
+    permission: servertimer.start
+    permission-message: You don't have permission to use this command
+permissions:
+  servertimer.start:
+    description: Allows users to start the server timer
+    default: op

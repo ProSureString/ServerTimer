@@ -1,0 +1,24 @@
+# za plugin configuration (THIS DOES NOTHING I WAS TOO LAZY TO ACTUALLY MAKE IT WORK LMAO)
+
+# Default values for the command (will be used if not specified in command, pointless bc it just returns syntax anyways)
+defaults:
+  initialBorderSize: 20
+  borderExpansionTime: 20
+
+# Messages configuration (DOES NOTHING STILL LMFAO)
+messages:
+  prefix: "&8[&aServerTimer&8] &r"
+  serverStarting: "&aServer starting soon!!"
+  pvpDisabled: "&eWorld border set to %size% blocks. PvP is disabled."
+  gameStarting: "&6The game will start in %time% minutes."
+
+  countdownTitle:
+    three: "&a3"
+    two: "&e2"
+    one: "&c1"
+    go: "&6GO!!!"
+    goSubtitle: "&aThe server has started!"
+
+  graceEndTitle: "&cGrace period has ended!"
+  graceEndSubtitle: "&ePvP is now enabled!"
+  graceEndMessage: "&cGrace period has ended! PvP is now enabled!"
